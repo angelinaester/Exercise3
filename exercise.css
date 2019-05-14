@@ -1,0 +1,60 @@
+body{
+	background-image: url("stableorbit.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+    width: 100% !important;
+    height: 100% !important; 
+}
+
+.container{
+    width: 100px;
+    background-color: rgb(255, 247, 247);
+    position: absolute;
+    left: 70%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    padding: 20px 30px 20px 20px;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 0px 20px 100px #ffee00;
+}
+
+h1{
+    text-align: center;
+    font-size: 32pt;
+    background: linear-gradient(90deg, #5e0f0f, #b55d29);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+.search{
+    margin: 0px auto 30px;
+    text-align: center;
+}
+.search input,.search button{
+    padding: 10px 20px;
+    border: none;
+}
+.search button{
+    cursor: pointer;
+}
+.container script{
+    width: 100%;
+}
+.container table tr:first-child{
+    background-color: #5b290b;
+    background-image: linear-gradient(90deg, #5b290b, #b55d29, #5b290b);
+}
+.container table tr:nth-child(even){
+    background-color: rgba(255, 211, 137, .2);
+}
+.container table tr:nth-child(odd){
+    background-color: rgba(255, 211, 137, .6);
+}
+.container td,th{
+    padding: 10px;
+}
+.container th{
+    text-align: left;
+    color: #ffffff;
+}
